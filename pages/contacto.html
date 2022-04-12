@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título página web -->
+    <title>M&M Uniformes</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="32x32">
+    <!-- Fonts -->
+    <!-- Josefin -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-container">
+            <label class="logo">
+                <a href="#inicio">
+                    <img src="../img/logo-small-b.png" alt="logo">
+                </a>
+            </label>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/nosotros.html">Nosotros</a></li>
+                <li><a href="../pages/portfolio.html">Portfolio</a></li>
+                <li><a href="../pages/ventamayorista.html">Venta mayorista</a></li>
+                <li><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="section-container contacto-section">
+            <div class="text-contacto">
+                <h2>Contacto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, natus aliquid similique magnam ipsam perferendis iste.</p>
+            </div>
+        </section>
+        
+        <section class="section-container">
+            <div class="container-boxes">
+                <div class="contact-box">
+                    <img src="../img/telefono.png" alt="">
+                    <p>+54 (011) 6264-4925</p>
+                </div>
+                <div class="contact-box">
+                    <img src="../img/mail.png" alt="">
+                    <p>contacto@mmuniformes.com.ar</p>
+                </div>
+                <div class="contact-box">
+                    <img src="../img/ubicacion.png" alt="">
+                    <p>Manuel Ugarte 1667, CABA.</p>
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        <form class="form" action="enviar.php" method="get">
+            <div class="form-container">
+                <h2 class="form-title">Contactanos</h2>
+                <div>
+                    <input type="text"  class="form-input" placeholder="Nombre" required>
+                    <input type="email" class="form-input" placeholder="Email" required>
+                    <textarea name="comment" class="form-input" cols="30" rows="5" maxlength="400" placeholder="Mensaje"></textarea> 
+                </div>
+                <div>
+                    <input type="checkbox">
+                    <label for="terms">Aceptar términos y condiciones</label>
+                </div>
+                <input class="form-input btn-input" type="submit" value="Enviar ahora">
+                <input class="form-input btn-input" type="reset" value="Borrar todo">
+            </div>
+        </form>
+        
+    </main>
+        
+        
+        <footer class="footer">
+            <label class="footer-text">
+                <p>©2022 - M&M Uniformes</p>
+        </label>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/uniformes.mm/" target="_blank"><img src="../img/ig-social.png" alt=""></a>
+            <a href="https://www.linkedin.com/company/mmuniformes/" target="_blank"><img src="../img/lkd-social.png" alt=""></a>
+            <a href="https://www.facebook.com/Unifomes-MM-106238438586219" target="_blank"><img src="../img/fb-social.png" alt=""></a>
+            <a href="#contacto"><img src="../img/mail-social.png" alt=""></a>
+        </div>
+    </footer>
+
+</body>
+</html>
