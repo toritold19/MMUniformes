@@ -170,6 +170,9 @@ nav ul li a:hover {
     text-align: left;
 }
 
+.about-img img:hover {
+    content: url(/img/about-img-color.png);
+}
 
 /* Description section */
 .tips {
