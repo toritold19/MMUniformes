@@ -24,7 +24,7 @@
 <body>
 
     <header>
-            <nav class="nav-container">
+            <nav class="nav-container" id="navbar">
                 <label class="logo">
                     <a href="#inicio">
                         <img src="./img/logo-small.png" alt="logo">
@@ -39,6 +39,24 @@
                 </ul>
             </nav>
     </header>
+
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        
+        window.onscroll = function() {
+            if (window.pageYOffset >100) {
+                navbar.style.background = "#ffffff";
+                navbar.style.boxShadow = "1px 1px 5px 2px rgba(0, 0, 0, 0.1)"
+                navbar.style.transition = "0.3s"
+            } else {
+                navbar.style.background = "transparent";
+                navbar.style.boxShadow = ""
+                navbar.style.transition = "0.3s"
+            }
+        }
+    </script>
 
     <main class="main-index">
 
