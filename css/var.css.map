@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,eAAe",
     "sources": [
-        "var.scss"
+        "../sass/var.scss"
     ],
     "names": [],
     "file": "var.css"
