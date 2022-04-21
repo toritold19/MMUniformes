@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* Import */
+/* Variables */
+/* Seccion nosotros */
+.nosotros-section {
+  padding-top: 150px;
+}
+
+.nosotros-texto {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nosotros-texto h2 {
+  text-align: center;
+  padding-top: 12px;
+  color: #00FF95;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 4.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.nosotros-texto h2:hover {
+  background-color: #00FF95;
+  color: #ffffff;
+  text-decoration: line-through;
+}
+
+.nosotros-texto p {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #A7A7A7;
+  font-size: 1.8rem;
+  line-height: 25px;
+}
+
+.nosotros-texto p .strong-text {
+  font-weight: 600;
+}
+
+.viñetas-section {
+  margin-top: 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 40%;
+      grid-template-columns: 40% 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+}
+
+.viñeta-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 15px 30px 15px;
+  text-align: left;
+}
+
+.img-viñeta {
+  padding: 15px 15px;
+  margin: 0px 25px;
+  -webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.07);
+          box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.07);
+}
+
+.text-viñeta h2 {
+  color: #868686;
+  font-weight: 700;
+  font-size: 2.2rem;
+  padding-bottom: 15px;
+}
+
+.text-viñeta p {
+  color: #A7A7A7;
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.text-viñeta p:hover {
+  color: #00FF95;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.iframe-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 35px;
+}
+
+.iframe-section {
+  margin-top: 40px;
+  background-color: #00FF95;
+  padding: 50px 0;
+}
+
+.video-iframe iframe {
+  width: 500px;
+  height: 300px;
+}
+
+.text-iframe {
+  width: 35%;
+  margin-left: 25px;
+}
+
+.text-iframe h2 {
+  font-size: 4.2rem;
+}
+
+.text-iframe p {
+  font-size: 1.6rem;
+  color: #ffffff;
+  line-height: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
+/*# sourceMappingURL=main.css.map */
