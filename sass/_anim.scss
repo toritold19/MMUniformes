@@ -1,0 +1,9 @@
+/* Animación de imagen - Sección: Inicio */
+@keyframes img-anim {
+    from {
+        transform: translateY(-30px);
+    }
+    to {
+        transform: translateX(-30px);
+    }
+}
