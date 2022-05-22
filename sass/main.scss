@@ -35,7 +35,7 @@ body {
 .main-index {
     background-color: $colorBlanco;
     background-image: url(../img/background-header.png);
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 

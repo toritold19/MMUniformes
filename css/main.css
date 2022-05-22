@@ -163,7 +163,7 @@ body {
 .main-index {
   background-color: #ffffff;
   background-image: url(../img/background-header.png);
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
