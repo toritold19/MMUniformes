@@ -149,7 +149,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.h1-class, .cover-text h2, .about-text h1, .portfolio-main h1, .clientes-main h1 {
+.h1-class, .cover-text h2, .about-text h1, .portfolio-main h2, .clientes-main h2 {
   letter-spacing: 1px;
   font-size: 4.2rem;
   text-align: left;
@@ -163,7 +163,7 @@ body {
 .main-index {
   background-color: #ffffff;
   background-image: url(../img/background-header.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -373,7 +373,6 @@ body {
 .nosotros-texto h1:hover {
   background-color: #00FF95;
   color: #ffffff;
-  text-decoration: line-through;
 }
 
 .nosotros-texto p {
@@ -486,7 +485,7 @@ body {
   text-align: center;
 }
 
-.portfolio-main h1, .clientes-main h1 {
+.portfolio-main h2, .clientes-main h2 {
   text-align: center;
 }
 
@@ -611,6 +610,10 @@ body {
   transition: 0.3s;
 }
 
+.uniformes-box h2 {
+  font-size: 2.4rem;
+}
+
 .clientes-main {
   margin-top: 80px;
   padding: 80px 0;
@@ -626,6 +629,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.box-logo img {
+  width: 80%;
 }
 
 /*  */
@@ -828,6 +835,9 @@ body {
   .box-cliente .text-cliente h1 {
     font-size: 4rem;
   }
+  .box-cliente .text-cliente h1 h2 {
+    font-size: 4rem;
+  }
   .box-cliente .text-cliente p {
     font-size: 1.4rem;
   }
@@ -961,6 +971,9 @@ body {
   .box-cliente .text-cliente {
     padding: 0 5px;
   }
+  .box-cliente .text-cliente h1 {
+    font-size: 2rem;
+  }
   .box-cliente .text-cliente h2 {
     font-size: 2rem;
   }
@@ -976,7 +989,8 @@ body {
   .portfolio-main, .clientes-main {
     margin-top: 100px;
   }
-  .portfolio-main h1, .clientes-main h1 {
+  .portfolio-main h2, .clientes-main h2 {
+    font-size: 3.2rem;
     padding: 0 35px;
   }
   .portfolio-main p, .clientes-main p {
