@@ -1,4 +1,12 @@
+/* Import */
+@import "_anim";
+@import "_var";
+
 @media screen and (min-width: 721px) and (max-width: 1000px) {
+
+    .main-index {
+        background-size: contain;
+    }
     
     .cover-text {
         width: 50%;
@@ -11,13 +19,16 @@
         a {
             font-size: 1.6rem;
         }
+    }
+    .cover-img {
         img {
             width: 80%;
         }
     }
+
     .about-text {
         margin-left: 0px;
-        h2 {
+        h1 {
             text-size-adjust: 3rem;
         }
         p {
@@ -78,6 +89,27 @@
         width: 80%;
         padding-top: 30px;
     }
+    .rappi-section {
+        margin-top: 0;
+        padding-bottom: 140px;
+    }
+    .box-cliente {
+        .text-cliente {
+            padding: 0 20px;
+            h1 {
+                font-size: 4rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .contact-box {
+        padding: 0 25px;
+        p {
+            font-size: 1.2rem;
+        }
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -122,6 +154,9 @@
         p {
             text-align: center;
         }
+    }
+    
+    .cover-img {
         img {
             display: none;
         }
@@ -148,6 +183,9 @@
         margin: 0px;
         text-align: center;
         p {
+            text-align: center;
+        }
+        h1 {
             text-align: center;
         }
     }
@@ -192,6 +230,73 @@
         width: 80%;
         padding-top: 30px;
     }
+
+    .section-uniformes {
+        grid-template-columns: 40% 40%;
+        gap: 10px;
+    }
+
+    .rappi-section {
+        margin-top: 0;
+        padding: 100px 0;
+        margin-bottom: 80px;
+    }
+    .box-cliente {
+        .text-cliente {
+            padding: 0 5px;
+            h2 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+    .iunigo-section {
+        background-position: 150% 0%;
+    }
+    .kromber-section {
+        background-position: -50% 0%;
+    }
+    .portfolio-main {
+        margin-top: 100px;
+        h1 {
+            padding: 0 35px;
+        }
+        p {
+            font-size: 1.6rem;
+            color: $colorGrisClaro;
+            padding: 0 35px;
+        }
+    }
+    .uniformes-box {
+        img {
+            width: 80%;
+        }
+    }
+    .text-contacto {
+        padding: 0 25px;
+    }
+    .contact-container {
+        display: block;
+        background-color: #fafafa;
+        padding: 20px 0;
+    }
+    .contact-box {
+        background-color: $colorBlanco;
+    }
+    .form {
+        margin-top: 40px;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (min-width: 400px ) and (max-width: 500px) {
+
+    .section-uniformes {
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -204,5 +309,86 @@
             font-size: 1.6rem;
             padding: 20px 40px;
         }
+    }
+    .section-uniformes {
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
+    
+    .nosotros-texto {
+        padding: 0;
+    }
+
+    .viñeta-box {
+        padding: 30px 2px;
+        .img-viñeta {
+            padding: 5px 5px;
+            text-align: center;
+            margin: 15px 15px;
+            img {
+                width: 80%;
+            }
+        }
+        .text-viñeta {
+            padding: 0;
+            h2 {
+                font-size: 1.6rem;
+            }
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .rappi-section {
+        margin-bottom: 50px;
+        h1 {
+            font-size: 4.2rem;
+        }
+    }
+
+    .iunigo-section {
+        background-image: none;
+    }
+
+    .kromber-section {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .box-cliente {
+        display: block;
+        text-align: center;
+        margin: auto 0;
+        .text-cliente {
+            width: 100%;
+            padding: 0 15px;
+            h2 {
+                font-size: 2.4rem;
+            }
+            p {
+                font-size: 1.4rem;
+            }
+        }
+        img {
+            margin-top: 30px;
+        }
+    }
+
+    .contact-box {
+        margin: 50px 0;
+        padding: 25px 0;
+    }
+
+    .footer-text {
+        margin-left: 10px;
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    .footer-socials {
+        font-size: 1.2rem;
+        margin-right: 10px;
     }
 }
