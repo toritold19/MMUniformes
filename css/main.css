@@ -597,17 +597,16 @@ body {
   font-size: 1rem;
 }
 
-.uniformes-box img {
+.uniformes-box img:hover {
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
   width: 90%;
 }
 
-.uniformes-box img:hover {
-  -webkit-filter: none;
-          filter: none;
+.uniformes-box img {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  width: 100%;
 }
 
 .uniformes-box h2 {
@@ -668,7 +667,7 @@ body {
 }
 
 .box-pregunta {
-  padding: 50px 30px;
+  padding: 40px 30px;
 }
 
 .box-pregunta h2 {
@@ -678,10 +677,11 @@ body {
 }
 
 .box-pregunta p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   padding-top: 15px;
+  color: #A7A7A7;
 }
 
 .iframe-map {

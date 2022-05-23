@@ -418,13 +418,13 @@ $clientes: (
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1rem;
-	img {
+	img:hover {
 		filter: grayscale(1);
 		width: 90%;
 	}
-	img:hover {
-		filter: none;
+	img {
 		transition: 0.3s;
+		width: 100%;
 	}
 	h2 {
 		font-size: 2.4rem;
@@ -481,17 +481,18 @@ $clientes: (
 }
 
 .box-pregunta {
-	padding: 50px 30px;
+	padding: 40px 30px;
 	h2 {
 		font-size: 2.4rem;
 		color: $colorNegro;
 		font-weight: 500;
 	}
 	p {
-		font-size: 1.6rem;
+		font-size: 1.4rem;
 		font-family: $Rubik;
 		font-weight: 400;
 		padding-top: 15px;
+		color: $colorGrisClaro;
 	}
 }
 
