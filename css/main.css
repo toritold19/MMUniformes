@@ -929,7 +929,7 @@ body {
     display: none;
   }
   .nav-input:checked ~ .nav-small {
-    height: 85vh;
+    height: 65vh;
   }
   .nav-input:checked ~ .nav-small {
     display: -webkit-box;
