@@ -308,7 +308,7 @@ body {
   margin-right: auto;
 }
 
-.talk {
+.talk, .talk-faq {
   height: 300px;
   margin-top: 110px;
   background-image: -webkit-linear-gradient(225deg, #0084ff 0%, #0000A3 100%);
@@ -316,7 +316,7 @@ body {
   margin-right: auto;
 }
 
-.talk h2 {
+.talk h2, .talk-faq h2 {
   color: #ffffff;
   padding-top: 80px;
   font-size: 4.8rem;
@@ -325,12 +325,12 @@ body {
   margin-bottom: 50px;
 }
 
-.talk .button-a {
+.talk .button-a, .talk-faq .button-a {
   display: block;
   text-align: center;
 }
 
-.talk a {
+.talk a, .talk-faq a {
   color: #000;
   background-color: #00FF95;
   padding: 20px 80px;
@@ -341,7 +341,7 @@ body {
   font-weight: 500;
 }
 
-.talk a:hover {
+.talk a:hover, .talk-faq a:hover {
   color: #000;
   background-color: #ffffff;
 }
@@ -636,6 +636,69 @@ body {
 }
 
 /*  */
+/* Sección: FAQ */
+/*  */
+.faq {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.faq h1 {
+  text-align: center;
+  padding-top: 12px;
+  color: #00FF95;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 4.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.faq h1:hover {
+  background-color: #00FF95;
+  color: #ffffff;
+}
+
+.faq-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  margin-top: 50px;
+}
+
+.box-pregunta {
+  padding: 50px 30px;
+}
+
+.box-pregunta h2 {
+  font-size: 2.4rem;
+  color: #000;
+  font-weight: 500;
+}
+
+.box-pregunta p {
+  font-size: 1.6rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  padding-top: 15px;
+}
+
+.iframe-map {
+  width: 100%;
+}
+
+.talk-faq {
+  margin-top: 30px;
+  background-image: -webkit-linear-gradient(225deg, #00FF95 0%, #0084ff 100%);
+}
+
+.talk-faq a {
+  background-color: #4DD6C6;
+  color: #ffffff;
+}
+
+/*  */
 /* Sección: Contacto */
 /*  */
 .contacto-section {
@@ -792,7 +855,7 @@ body {
   .item-box p {
     font-size: 1.8rem;
   }
-  .talk h2 {
+  .talk h2, .talk-faq h2 {
     padding-top: 50px;
   }
   .viñeta-box {
@@ -931,10 +994,10 @@ body {
     gap: 10px;
     padding: 0;
   }
-  .talk {
+  .talk, .talk-faq {
     margin-top: 50px;
   }
-  .talk h2 {
+  .talk h2, .talk-faq h2 {
     font-size: 4rem;
     width: 90%;
     margin: 0 auto;
@@ -1027,12 +1090,12 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-  .talk h2 {
-    font-size: 3rem;
+  .talk h2, .talk-faq h2 {
+    font-size: 2rem;
   }
-  .talk a {
+  .talk a, .talk-faq a {
     font-size: 1.6rem;
-    padding: 20px 40px;
+    padding: 20px 20px;
   }
   .section-uniformes, .section-clientes {
     -ms-grid-columns: 100%;
@@ -1096,6 +1159,12 @@ body {
   .contact-box {
     margin: 50px 0;
     padding: 25px 0;
+  }
+  .faq h1 {
+    font-size: 2.4rem;
+  }
+  .box-pregunta {
+    padding: 35px 10    px;
   }
   .footer-text {
     margin-left: 10px;

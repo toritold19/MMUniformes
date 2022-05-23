@@ -452,6 +452,64 @@ $clientes: (
 }
 
 /*  */
+/* Sección: FAQ */
+/*  */
+
+.faq {
+	margin-top: 150px;
+	text-align: center;
+	h1 {
+		text-align: center;
+		padding-top: 12px;
+		color: $colorVerde;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		font-size: 4.2rem;
+		font-weight: 600;
+		margin-bottom: 20px;
+		&:hover {
+			background-color: $colorVerde;
+			color: $colorBlanco;
+		}
+	}
+}
+
+.faq-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-top: 50px;
+}
+
+.box-pregunta {
+	padding: 50px 30px;
+	h2 {
+		font-size: 2.4rem;
+		color: $colorNegro;
+		font-weight: 500;
+	}
+	p {
+		font-size: 1.6rem;
+		font-family: $Rubik;
+		font-weight: 400;
+		padding-top: 15px;
+	}
+}
+
+.iframe-map {
+	width: 100%;
+}
+
+.talk-faq {
+	@extend .talk;
+	margin-top: 30px;
+	background-image: -webkit-linear-gradient(225deg, $colorVerde 0%, $colorCeleste 100%);
+	a {
+		background-color: $colorAqua;
+		color: $colorBlanco;
+	}
+}
+
+/*  */
 /* Sección: Contacto */
 /*  */
 
