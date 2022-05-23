@@ -929,7 +929,7 @@ body {
     display: none;
   }
   .nav-input:checked ~ .nav-small {
-    height: 100vh;
+    height: 85vh;
   }
   .nav-input:checked ~ .nav-small {
     display: -webkit-box;
@@ -945,11 +945,12 @@ body {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    line-height: 0;
   }
   .cover-text {
     width: 100%;
     text-align: center;
-    margin-top: 280px;
+    margin-top: 220px;
     margin-bottom: 50px;
     padding: 0 50px;
   }
