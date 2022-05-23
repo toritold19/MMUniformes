@@ -190,6 +190,7 @@
         }
         h1 {
             text-align: center;
+            font-size: 3.2rem;
         }
     }
 
@@ -308,6 +309,11 @@
 
 @media screen and (max-width: 400px) {
 
+    .about-text {
+        h1 {
+            font-size: 2.4rem;
+        }
+    }
     .talk {
         h2 {
             font-size: 2rem;
