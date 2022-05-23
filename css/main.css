@@ -1084,6 +1084,9 @@ body {
 }
 
 @media screen and (min-width: 400px) and (max-width: 500px) {
+  .nosotros-text p {
+    padding: 0 20px;
+  }
   .section-uniformes, .section-clientes {
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
@@ -1091,12 +1094,11 @@ body {
   }
   .about-text {
     width: 100%;
-    margin-left: 0;
     margin: 0 auto;
     padding: 10px;
   }
   .about-text h1 {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
   }
   .about-text p {
     font-size: 1.2rem;
@@ -1124,8 +1126,19 @@ body {
 }
 
 @media screen and (max-width: 400px) {
+  .nosotros-text p {
+    padding: 0 20px;
+  }
+  .about-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
   .about-text h1 {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
+  }
+  .about-text p {
+    font-size: 1.2rem;
   }
   .talk h2, .talk-faq h2 {
     font-size: 2rem;

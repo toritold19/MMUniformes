@@ -302,6 +302,12 @@
 
 @media screen and (min-width: 400px ) and (max-width: 500px) {
 
+    .nosotros-text {
+        p {
+            padding: 0 20px;
+        }
+    }
+
     .section-uniformes {
         grid-template-columns: 100%;
         gap: 10px;
@@ -309,11 +315,10 @@
 
     .about-text {
         width: 100%;
-        margin-left: 0;
         margin: 0 auto;
         padding: 10px;
         h1 {
-            font-size: 2.4rem;
+            font-size: 3.2rem;
         }
         p {
             font-size: 1.2rem;
@@ -351,9 +356,21 @@
 
 @media screen and (max-width: 400px) {
 
+    .nosotros-text {
+        p {
+            padding: 0 20px;
+        }
+    }
+
     .about-text {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
         h1 {
-            font-size: 2.4rem;
+            font-size: 3.2rem;
+        }
+        p {
+            font-size: 1.2rem;
         }
     }
 
